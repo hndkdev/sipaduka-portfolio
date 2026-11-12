@@ -1,6 +1,6 @@
 # SIPADUKA
 
-Aplikasi administrasi keluarga dan wilayah RW berbasis Laravel. Proyek ini disiapkan sebagai demonstrasi portofolio dengan struktur database lokal dan data sintetis.
+Aplikasi web untuk mendukung pendataan penduduk dan keluarga di Kelurahan Panunggangan Barat. Sistem menyediakan fitur pengelolaan, pencarian, pembaruan, dan pelaporan data dengan memanfaatkan Laravel, Google Apps Script, Google Sheets, dan Fonte API. Proyek ini disiapkan sebagai demonstrasi portofolio dengan struktur database lokal dan data sintetis.
 
 ## Fitur
 
