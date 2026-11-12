@@ -1,0 +1,64 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+$primary: #1B4079;
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+.sidebar {
+    width: 250px;
+}
+.nav-link:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+.dashboard-iframe {
+    width: 100%;
+    height: calc(100vh - 40px); // sesuaikan kalau ada navbar
+}
+
+.dashboard-iframe iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+.bg-sipaduka {
+    background-color: #1B4079 !important;
+}
+
+.table-sipaduka {
+    background-color: #1B4079 !important;
+}
+
+/* Theme SIPADUKA */
+:root {
+    --color-sipaduka: #2c3e50;
+    --color-sipaduka-light: #34495e;
+    --color-sipaduka-dark: #1a252f;
+}
+
+.bg-sipaduka {
+    background: linear-gradient(180deg, var(--color-sipaduka) 0%, var(--color-sipaduka-dark) 100%);
+}
+
+/* Custom Scrollbar untuk Sidebar */
+.sidebar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
